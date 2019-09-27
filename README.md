@@ -14,6 +14,17 @@ pip install -r requirements
 
 ## Running
 
+To run the program with the default options, do:
+
+```bash
+python -m traveling_salesperson
+```
+
+To learn more about possible options, do:
+```bash
+python -m traveling_salesperson --help
+```
+
 You can run the algorithm on any input file as long as it is in `.csv` format and has the same heading as in the example 
 files found in `data/*`.  (The two examples in that directory have been taken from 
-[this site](http://www.math.uwaterloo.ca/tsp/world/countries.html).) 
+[this site](http://www.math.uwaterloo.ca/tsp/world/countries.html).)
