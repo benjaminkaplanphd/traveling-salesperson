@@ -46,7 +46,6 @@ def transform(raw_frame: pd.DataFrame, target_digits: int = 3) -> Tuple[pd.DataF
     Args:
         raw_frame: A Pandas DataFrame with the raw city data
         target_digits: The target number of digits of the whole number part of the coordinates.
-            See the README for more discussion on this.
     Returns:
         A tuple with
             (1) a Pandas DataFrame with the transformed city data
